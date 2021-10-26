@@ -56,13 +56,13 @@
             BorderBrush="Black"
             CornerRadius="5"
             BorderThickness="3">
+            <Border.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black" Offset="0.06"/>
+                    <GradientStop Color="#FF810F0F" Offset="1"/>
+                </LinearGradientBrush>
+            </Border.Background>
             <StackPanel>
-                <StackPanel.Background>
-                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                        <GradientStop Color="Black" Offset="0.06"/>
-                        <GradientStop Color="#FF810F0F" Offset="1"/>
-                    </LinearGradientBrush>
-                </StackPanel.Background>
                 <TextBlock
                     Foreground="White"
                     Text="Miami Heat"
